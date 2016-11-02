@@ -1,6 +1,18 @@
+@font-face{
+   font-family: CookieMonster;
+   src: url(CookieMonster.ttf);
+}
+
+span {
+   font-family: CookieMonster;
+   color: white;
+   font-size: 20px;
+   background-color: black;
+}
+
 body {
    background: url(../images/wallpaper.jpg);
-   background-size: cover;
+   background-size: 100%;
 }
 
 button {
@@ -71,4 +83,13 @@ button {
 .gif {
       border: 10px solid black;
       margin-bottom: auto;
+}
+
+@media screen and (max-width: 640px) {
+
+   body {
+      background-size: contain;
+
+   }
+
 }
