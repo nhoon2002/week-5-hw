@@ -1,1 +1,1 @@
-<?php include_once("week-5-game/index.html"); ?>
+<?php include_once("index.html"); ?>
